@@ -1,6 +1,6 @@
 #include <SDL.h>
 
-#define USE_SDL_RENDERER 0
+#define USE_SDL_RENDERER 1
 
 #if USE_SDL_RENDERER
 typedef float GLfloat;
