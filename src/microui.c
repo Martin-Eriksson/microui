@@ -83,7 +83,7 @@ mu_Rect mu_rect(int x, int y, int w, int h) {
 }
 
 
-mu_Color mu_color(int r, int g, int b, int a) {
+mu_Color mu_color(unsigned char r, unsigned char g, unsigned char b, unsigned char a) {
   return (mu_Color){.r = r, .g = g, .b = b, .a = a};
 }
 
